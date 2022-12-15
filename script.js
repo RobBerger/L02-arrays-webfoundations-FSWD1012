@@ -73,5 +73,11 @@
 // console.log(result);
 
 // length
-var numArray =[2, 4, 6, 8, 10, 12, 14];
-console.log(numArray.length);
+// var numArray =[2, 4, 6, 8, 10, 12, 14];
+// console.log(numArray.length);
+
+var lunch = ["PB&J", "apple", "chips", "brownie", "milk" ];
+
+for (var i = 0; i < lunch.length; i++) {
+    console.log(lunch[i]);
+}
