@@ -55,7 +55,12 @@
 // }
 
 // reverse
-var fruits = ["Apple", "Banana", "Coconut", "Grape"];
-console.log(fruits);
-fruits.reverse();
-console.log(fruits);
+// var fruits = ["Apple", "Banana", "Coconut", "Grape"];
+// console.log(fruits);
+// fruits.reverse();
+// console.log(fruits);
+
+// join
+var wildAnimals = ["lions", "tigers", "bears"];
+console.log(wildAnimals);
+console.log(wildAnimals.join());
