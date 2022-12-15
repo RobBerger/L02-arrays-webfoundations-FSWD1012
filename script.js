@@ -86,4 +86,13 @@ let mySeaThings = ['dragonfish','octopus','squid','shark','seahorse','starfish',
 
 function myCustomFilter(things) {
     let result = [];
+
+    things.forEach(function(item){
+        if (item.startsWith("s")) {
+            result.push(item);
+        }
+    })
+    return result
 }
+
+console.log(myCustomFilter(mySeaThings));
