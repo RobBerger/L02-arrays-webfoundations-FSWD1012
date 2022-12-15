@@ -29,3 +29,6 @@
 var pets = ["goldfish", "dog", "cat", "parrot"];
 pets.push("gerbil");
 console.log(pets);
+
+var pushLength = pets.push("lizard");
+console.log("New Length: " + pushLength);
