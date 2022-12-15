@@ -61,6 +61,13 @@
 // console.log(fruits);
 
 // join
-var wildAnimals = ["lions", "tigers", "bears"];
-console.log(wildAnimals);
-console.log(wildAnimals.join());
+// var wildAnimals = ["lions", "tigers", "bears"];
+// console.log(wildAnimals);
+// console.log(wildAnimals.join());
+
+// find
+let veggies = ["peas", "lettuce", "carrots", "brocolli"];
+let result = veggies.find(function(veg) {
+  return veg.startsWith("c");   // condition
+});
+console.log(result);
