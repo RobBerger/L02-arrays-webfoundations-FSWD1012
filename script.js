@@ -66,8 +66,12 @@
 // console.log(wildAnimals.join());
 
 // find
-let veggies = ["peas", "lettuce", "carrots", "brocolli"];
-let result = veggies.find(function(veg) {
-  return veg.startsWith("c");   // condition
-});
-console.log(result);
+// let veggies = ["peas", "lettuce", "carrots", "brocolli"];
+// let result = veggies.find(function(veg) {
+//   return veg.startsWith("c");   // condition
+// });
+// console.log(result);
+
+// length
+var numArray =[2, 4, 6, 8, 10, 12, 14];
+console.log(numArray.length);
