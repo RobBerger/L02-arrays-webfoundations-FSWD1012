@@ -85,5 +85,5 @@
 let mySeaThings = ['dragonfish','octopus','squid','shark','seahorse','starfish','whale','pufferfish','lobster'];
 
 function myCustomFilter(things) {
-    
+    let result = [];
 }
