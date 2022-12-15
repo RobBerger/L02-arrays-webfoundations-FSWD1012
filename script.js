@@ -45,11 +45,17 @@
 
 // forEach()
 // find the sum of all numbers in the array
-var sum = 0;
-var numbers = [65, 44, 12, 4];
-numbers.forEach(myFunction);
+// var sum = 0;
+// var numbers = [65, 44, 12, 4];
+// numbers.forEach(myFunction);
 
-function myFunction(item) {
-  sum += item;
-  console.log(sum);
-}
+// function myFunction(item) {
+//   sum += item;
+//   console.log(sum);
+// }
+
+// reverse
+var fruits = ["Apple", "Banana", "Coconut", "Grape"];
+console.log(fruits);
+fruits.reverse();
+console.log(fruits);
