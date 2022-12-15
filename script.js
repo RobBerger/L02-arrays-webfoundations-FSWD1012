@@ -25,3 +25,7 @@
 //     "Pizza Slice"
 // );
 
+// push()
+var pets = ["goldfish", "dog", "cat", "parrot"];
+pets.push("gerbil");
+console.log(pets);
