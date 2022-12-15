@@ -76,8 +76,23 @@
 // var numArray =[2, 4, 6, 8, 10, 12, 14];
 // console.log(numArray.length);
 
-var lunch = ["PB&J", "apple", "chips", "brownie", "milk" ];
+// var lunch = ["PB&J", "apple", "chips", "brownie", "milk" ];
 
-for (var i = 0; i < lunch.length; i++) {
-    console.log(lunch[i]);
+// for (var i = 0; i < lunch.length; i++) {
+//     console.log(lunch[i]);
+// }
+
+let mySeaThings = ['dragonfish','octopus','squid','shark','seahorse','starfish','whale','pufferfish','lobster'];
+
+function myCustomFilter(things) {
+    let result = [];
+
+    things.forEach(function(item){
+        if (item.startsWith("s")) {
+            result.push(item);
+        }
+    })
+    return result
 }
+
+console.log(myCustomFilter(mySeaThings));
