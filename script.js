@@ -33,13 +33,23 @@
 // var pushLength = pets.push("lizard");
 // console.log("New Length: " + pushLength);
 
-pop
-var bugs = ["grasshopper", "ant", "ladybug", "beetle"];
-console.log(bugs);
-bugs.pop();
-console.log(bugs);
-console.log(bugs.pop());
-console.log(bugs);
-console.log(bugs.pop());
-console.log(bugs);
+// pop
+// var bugs = ["grasshopper", "ant", "ladybug", "beetle"];
+// console.log(bugs);
+// bugs.pop();
+// console.log(bugs);
+// console.log(bugs.pop());
+// console.log(bugs);
+// console.log(bugs.pop());
+// console.log(bugs);
 
+// forEach()
+// find the sum of all numbers in the array
+var sum = 0;
+var numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  sum += item;
+  console.log(sum);
+}
