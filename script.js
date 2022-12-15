@@ -33,10 +33,13 @@
 // var pushLength = pets.push("lizard");
 // console.log("New Length: " + pushLength);
 
-// pop
+pop
 var bugs = ["grasshopper", "ant", "ladybug", "beetle"];
 console.log(bugs);
 bugs.pop();
 console.log(bugs);
 console.log(bugs.pop());
 console.log(bugs);
+console.log(bugs.pop());
+console.log(bugs);
+
