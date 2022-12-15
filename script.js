@@ -26,9 +26,17 @@
 // );
 
 // push()
-var pets = ["goldfish", "dog", "cat", "parrot"];
-pets.push("gerbil");
-console.log(pets);
+// var pets = ["goldfish", "dog", "cat", "parrot"];
+// pets.push("gerbil");
+// console.log(pets);
 
-var pushLength = pets.push("lizard");
-console.log("New Length: " + pushLength);
+// var pushLength = pets.push("lizard");
+// console.log("New Length: " + pushLength);
+
+// pop
+var bugs = ["grasshopper", "ant", "ladybug", "beetle"];
+console.log(bugs);
+bugs.pop();
+console.log(bugs);
+console.log(bugs.pop());
+console.log(bugs);
