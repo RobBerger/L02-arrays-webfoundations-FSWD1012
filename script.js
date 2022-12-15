@@ -73,5 +73,5 @@
 // console.log(result);
 
 // length
-var numArray =[2, 4, 6, 8, 10, 12, 14];
-console.log(numArray.length);
+// var numArray =[2, 4, 6, 8, 10, 12, 14];
+// console.log(numArray.length);
